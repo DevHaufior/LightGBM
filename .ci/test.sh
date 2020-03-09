@@ -6,6 +6,7 @@ if [[ $OS_NAME == "macos" ]]; then
         if [[ $AZURE == "true" ]]; then
             sudo xcode-select -s /Applications/Xcode_9.4.1.app/Contents/Developer
         fi
+    fi
 fi
 
 mkdir $BUILD_DIRECTORY/build && cd $BUILD_DIRECTORY/build
